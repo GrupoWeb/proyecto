@@ -1,0 +1,80 @@
+$info: #2196f3;
+$primary: #4361ee;
+
+.input-group {
+  button:hover,
+  .btn:hover,
+  button:focus,
+  .btn:focus {
+    transform: none;
+  }
+
+  .dropdown-menu {
+    border: none;
+    border: 1px solid #e0e6ed;
+    z-index: 1028;
+    box-shadow: none;
+    padding: 10px;
+    padding: 0.35rem 0;
+    top: 0 !important;
+    right: auto;
+    border-radius: 4px;
+
+    a.dropdown-item {
+      width: 100%;
+      padding: 6px 17px;
+      clear: both;
+      font-weight: 500;
+      color: #030305;
+      text-align: inherit;
+      white-space: nowrap;
+      background-color: transparent;
+      border: 0;
+      font-size: 13px;
+      cursor: pointer;
+
+      &:hover {
+        color: $info;
+      }
+    }
+
+    .dropdown-item:hover {
+      color: $info;
+    }
+  }
+
+  .dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef !important;
+  }
+
+  .input-group-text {
+    border: 1px solid #bfc9d4;
+    background-color: #f1f2f3;
+
+    svg {
+      color: #888ea8;
+    }
+  }
+
+  &:hover .input-group-text svg {
+    color: $primary;
+    fill: rgba(27, 85, 226, 0.2392156863);
+  }
+
+  .input-group-append .input-group-text {
+    border: 1px solid #bfc9d4;
+    background-color: #f1f2f3;
+
+    svg {
+      color: #888ea8;
+    }
+  }
+
+  &:hover .input-group-append .input-group-text svg {
+    color: $primary;
+    fill: rgba(27, 85, 226, 0.2392156863);
+  }
+}

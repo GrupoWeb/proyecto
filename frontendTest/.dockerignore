@@ -1,0 +1,3 @@
+.dockerifnore
+Dockerfile
+node_modules

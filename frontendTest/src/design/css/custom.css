@@ -1,0 +1,74 @@
+/*
+Paleta de Colores
+
+
+646c7b,
+f47a72,
+e5433e,
+af3834,
+bf3c3b,
+f36056,
+cc3c3c,
+f46464,
+7c8460
+
+["646c7b",
+"f47a72",
+"e5433e",
+"af3834",
+"bf3c3b",
+"f36056",
+"cc3c3c",
+"f46464",
+"7c8460"]
+
+*/
+
+.bg-primary-login {
+    background-color: #fff !important;
+}
+
+.bg-primary-login.bg-soft-login {
+    background-color: rgba(214, 102, 102, 0.658) !important;
+}
+
+.text-primary-login{
+    color:#fff;
+    font-size: 1rem;
+}
+
+.router-link-active{
+    color: #fff !important;
+}
+
+.customHeader{
+    background-color: #556ee6 !important;
+}
+
+.customHeader>h5{
+    color: #fff !important;
+}
+
+.table-action {
+    width: 15%;
+}
+
+.table-cuenta , .table-padre {
+    width: 40%;
+}
+
+.table-custom > thead th{
+    font-size: 1.2em !important;
+    text-align: center;
+    background-color: #fea !important;
+}
+
+.bg-avatar-cv {
+    background-color: #646c7b !important; }
+
+.bx-general {
+    width: 24px;
+    height: 24px;
+    font-size: 2em;
+    margin: 0px 30px 0px 30px;
+}

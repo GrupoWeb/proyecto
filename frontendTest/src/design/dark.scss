@@ -1,0 +1,27 @@
+//File-upload
+
+.custom-file-container {
+  label {
+    color: #009688;
+
+    .custom-file-container__image-clear {
+      color: #e0e6ed;
+    }
+  }
+}
+
+.custom-file-container__custom-file__custom-file-control {
+  border: 1px solid #1b2e4b;
+  color: #009688;
+  background-color: #1b2e4b;
+}
+
+.custom-file-container__custom-file__custom-file-control__button {
+  background-color: rgba(0, 150, 136, 0.1);
+  color: #009688;
+  border-left: 0px;
+}
+
+.custom-file-container__image-preview {
+  background-color: transparent;
+}
