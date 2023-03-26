@@ -1,4 +1,3 @@
-# skote
 
 ## Project setup
 ```
